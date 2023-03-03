@@ -1,0 +1,93 @@
+body {
+    background: url(/imagens/gifs-de-galaxia-9.gif);
+    Background-repeat: no-repeat;
+    Background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes animation{
+    from{width:5rem;height:5rem; opacity: 0.0;}
+    to{width: 20rem;height: 20rem; opacity: 1.0;}
+}
+
+@keyframes cosmovisao {
+    from{font-size: 1rem; opacity: 0.0;}
+    to{font-size: 4rem; opacity: 1.0;}
+}
+
+@keyframes botaoprm {
+    from{opacity: 0.0;}
+    to{opacity: 0.9;}
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+#particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+#contanier{
+    text-align: center;
+}
+
+#olho{
+    width: 20rem;
+    height: 20rem;
+    margin-top: 4rem;
+    animation-name: animation;
+    animation-duration: 7s;
+}
+
+#cosmoplv{
+    color: white;
+    font-family: cursive;
+    margin-top: -1rem;
+    font-size: 4rem;
+    animation: cosmovisao;
+    animation-duration: 10s;
+}
+
+#botaoprm{
+    border-radius: 44%;
+    padding: 10px;
+    display: flex;
+    background-color: rgb(255, 255, 255,0.9);
+    position: fixed;
+    z-index: 3;
+    margin-top: 1rem;
+    width: 6rem;
+    height: 10px;
+    text-align: center;
+    margin-left: 77rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+    animation-name:botaoprm;
+    animation-duration: 10s;
+
+}
+
+#prm{
+    color: black;
+    width: 2rem;
+    height: 2rem;
+}
+
+#seta-direita{
+    width: 25px;
+    height: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(231, 230, 230);
+}
